@@ -21,6 +21,7 @@
 #-------------------------------------------------------------------------------
 
 require 'openssl'
+require_relative 'request_parameters.rb' # https://github.com/AzureAD/azure-activedirectory-library-for-ruby/pull/50
 
 module ADAL
   # An assertion made by a client with an X509 certificate. This requires both

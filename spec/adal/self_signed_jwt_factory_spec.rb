@@ -26,6 +26,7 @@ require 'jwt'
 
 include FakeData
 
+# https://github.com/AzureAD/azure-activedirectory-library-for-ruby/pull/69
 module JWT
   module DefaultOptions
     DEFAULT_OPTIONS = {

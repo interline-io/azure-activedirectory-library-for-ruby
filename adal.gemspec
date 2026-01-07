@@ -40,7 +40,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 2.7'
 
   s.add_runtime_dependency 'jwt', '>= 2.3.0', '< 3.0'  # 2.3.0+ for OpenSSL 3.0 support, < 3.0 to avoid breaking changes
-  s.add_runtime_dependency 'nokogiri', '~> 1.14'
+  s.add_runtime_dependency 'nokogiri', '>= 1.16', '< 2.0'  # Updated from 1.14, current stable is 1.16.x
   s.add_runtime_dependency 'uri_template', '~> 0.7'
 
   s.add_development_dependency 'rake', '~> 10.4'
